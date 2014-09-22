@@ -1,0 +1,221 @@
+@import url('fonts.css');
+
+/*
+ * Globals
+ */
+
+body {
+  font-family: 'prox-reg';
+  color: #333333;
+  background: #efefef;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 20px;
+  font-family: 'prox-bold';
+  color: #333;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/*
+ * Masthead for nav
+ */
+
+.navbar {
+	background-color: #383b40;
+}
+
+.navbar-brand {
+	font-family: 'prox-bold' !important;
+	font-size: 40px !important;
+}
+
+.navbar a {
+	color: #ffffff;
+	font-family: 'prox-cond-reg';
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	background-color: #292929;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background-color: #292929;
+	border-color: #428bca;
+}
+
+.white-back {
+	background: #ffffff;
+	overflow: hidden;
+	padding: 20px;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+/* Panels */
+.check-list {
+	
+}
+
+.panel-heading {
+	background-color: #d1dade;
+	border-bottom: 1px solid #bbc5ca;
+	box-shadow: 1px 1px #f0f5f8;
+	padding: 15px 10px;
+}
+
+.panel-title {
+	color: #dd3c35;
+	font-size: 20px;
+}
+
+.panel-body {
+	background-color: #eaf0f3;
+}
+
+.panel-body .checkbox {
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: 13px;
+	height: 20px;
+	margin: 1px 7px 0 0;
+}
+
+.panel-body label {
+	cursor: pointer;
+}
+
+.list-group-item:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.list-group-item {
+	position: relative;
+	display: block;
+	padding: 15px 15px;
+	margin-bottom: -1px;
+	background-color: #eaf0f3;
+	border: none;
+}
+
+/* Sidebar modules for boxing content */
+.sticky-scroll {
+	position: absolute;
+	margin: 20px 10px 0 0;
+	background-color: #eaf0f3;
+	border-radius: 6px;
+	border: 1px solid #d0dbe0;
+}
+.sticky-scroll .title {
+	color: #dd3c35;
+}
+.sticky-scroll p {
+	margin: 10px 0;
+}
+.sidebar-module-inset {
+  padding: 5px 15px 15px 15px;
+}
+
+.sign-up-wrapper {
+	border-bottom: 1px solid #d0dbe0;
+}
+
+.form-row {
+	margin: 15px 0;
+}
+
+.form-submit {
+
+}
+
+/* footer */
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  color: #ffffff;
+  text-align: left;
+  background-color: #383b40;
+}
+.footer .brand {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'prox-bold' !important;
+	font-size: 40px !important;
+}
+
+.footer-links {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.footer-links ul {
+	padding: 0;
+}
+
+.footer-links ul li {
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+
+.footer-links ul a {
+	color: #ffffff;
+}
+
+.footer .social-media {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.footer .social-media li { 
+	position: relative; 
+	float: left; 
+	width: 20%;
+	margin: 0;
+}
+
+.footer .social-media .first { 
+	margin: 0; 
+}
+
+.footer .social-media li a { 
+	text-indent: 1000%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block; 
+	width: 50px; 
+	height: 50px; 
+	background: url(../images/sprite-footer-social.png) no-repeat; 
+}
+
+.footer .social-media .facebook { background-position: 0 0; }
+.footer .social-media .facebook:hover { background-position: 0 -50px; }
+.footer .social-media .linkedin { background-position: -50px 0; }
+.footer .social-media .linkedin:hover { background-position: -50px -50px; }
+.footer .social-media .twitter { background-position: -100px 0; }
+.footer .social-media .g-plus { background-position: -150px 0; }
+.footer .social-media .g-plus:hover { background-position: -150px -50px; }
+.footer .social-media .twitter:hover { background-position: -100px -50px; }
+
+.footer .footer-btn .btn {
+	width: 80%;
+}

@@ -1,0 +1,77 @@
+@import url('fonts.css');
+
+/*
+ * Globals
+ */
+
+body {
+  font-family: 'prox-reg';
+  color: #333333;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 20px;
+  font-family: 'prox-bold';
+  color: #333;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.graphic {
+	text-align: center;
+}
+
+.white-back {
+	background: #ffffff;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.page-wrapper {
+	margin-top: 100px;
+}
+
+.side-border {
+	text-align: center;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+.image-wrapper {
+	cursor: pointer;
+	margin: 60px auto;
+	width: 700px;
+}
+
+.form-text {
+	text-align: center;
+	font-size: 20px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.sign-up-wrapper {
+	border-bottom: 1px solid #d0dbe0;
+}
+
+.form-row {
+	margin: 15px 0;
+}
+
+.disclaimer {
+	margin-top: 20px;
+	font-size: 10px;
+}
