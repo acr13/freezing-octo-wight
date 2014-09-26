@@ -52,8 +52,7 @@ h6, .h6 {
 
 .image-wrapper {
 	cursor: pointer;
-	margin: 60px auto;
-	width: 700px;
+  margin-top: 60px;
 }
 
 .form-text {
@@ -68,7 +67,12 @@ h6, .h6 {
 }
 
 .form-text ul li {
-	margin: 10px 0;
+	margin-top: 10px;
+}
+
+.form-text ul li.nested {
+  margin-top: 0;
+  margin-left: 15px;
 }
 
 .sign-up-wrapper {
