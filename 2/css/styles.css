@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'prox-reg';
+  font-family: 'prox-thin';
   color: #333333;
 }
 
@@ -16,13 +16,22 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 20px;
-  font-family: 'prox-bold';
+  font-family: 'prox-thin';
   color: #333;
+}
+
+.red {
+	color: #FF0000;
 }
 
 /*
  * Override Bootstrap's default container.
  */
+
+ .header-text {
+ 	text-align: center;
+ 	margin: 20px 0;
+ }
 
 @media (min-width: 1200px) {
   .container {
@@ -41,29 +50,32 @@ h6, .h6 {
 }
 
 .page-wrapper {
-	margin-top: 100px;
+	margin-top: 40px;
 }
 
 .side-border {
 	text-align: center;
-	border-left: 1px solid #e5e5e5;
-	border-right: 1px solid #e5e5e5;
+	border-left: 2px solid #e5e5e5;
+	border-right: 2px solid #e5e5e5;
 }
 
 .image-wrapper {
 	cursor: pointer;
-  margin-top: 60px;
 }
 
 .form-text {
 	text-align: left;
-	font-size: 14px;
+	font-size: 18px;
 	width: 100%;
 	margin: 0 auto;
 }
 
 .form-text ul {
 	list-style: none;
+}
+
+.form-text ul.show-list-style {
+	list-style: inherit;
 }
 
 .form-text ul li {

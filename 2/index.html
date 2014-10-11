@@ -4,7 +4,7 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Landing Page Template</title>
+    <title>Wealth Preservation Institue</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,79 +18,88 @@
 </head>
 <body>
 
-
   <div class="container white-back page-wrapper">
 
     <div class="row">
       <div class="col-sm-12 graphic" style="padding:0; margin-left:-12px;">
-        <img src="images/header.jpg" width="980">
+        <img src="images/header.jpg" width="980" border="0" usemap="#Map">
+        <map name="Map">
+          <area shape="rect" coords="443,68,600,87" href="guaranteedincome.html">
+          <area shape="rect" coords="614,69,805,87" href="avoidstockmarketrisk.html">
+          <area shape="rect" coords="808,69,966,87" href="avoidbadadvisors.html">
+          <area shape="rect" coords="383,68,433,86" href="about.html">
+        </map>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-12 side-border">
-        <div class='image-wrapper'>
-          <img src="images/main-content.jpg">
+    <div class="row side-border">
+      <div class="col-sm-12">
+        <h1 class="red header-text">Retire Without Risk NOW!</h1>
+      </div>  
+
+      <div class="col-sm-6">
+        <div class='image-wrapper'><img src="images/main-books.png" width="443" height="310"></div>
+        <h1 class="red" style="font-size:28px;">What will you learn when signing up?</h1>
+        <div class="form-text">
+          <ul>
+            <li>Why stocks, bonds, mutual funds and index funds are NOT the best tools to grow wealth for retirement.</li>
+            <li>Why using a &ldquo;balanced&rdquo; portfolio minimizes investment returns and exposes your investments to too much risk.</li>
+            <li>Why the average investor has averaged a measly 4.25% over the last 20 years.</li>
+            <li>How to generate a guaranteed return of between 6%-7% that is coupled with a guaranteed income for life that can never be outlived.</li>
+            <li>How to avoid capital gains and income taxes in a retirement tool that has no risk of loss (and it&rsquo;s not a 401(k) plan or IRA).</li>
+            <li>How to identify with a few simple questions if your current or potential advisors are &ldquo;bad advisors&rdquo;</li>
+            <li>And much more vital information you need in order to &ldquo;retire without risk&rdquo;</li>
+          </ul>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-sm-12 side-border">
-        <h1>Where Would You Like It Sent?</h1>
+      <div class="col-sm-6">
+        <div class="form-text">
+          <ul>
+            <li>1) Video - How to Create a Guaranteed Income for Life</li>
+            <li>2) Video - Retirement Life - Growing Money Tax Free</li>
+            <li>3) Video - How to Identify and Avoid Bad Advisors</li>
+            <li>4) PDF - White Paper - Understanding Investment Risk and How to Avoid it</li>
+            <li>5) PDF - Retire Without Risk Checklist</li>
+            <li>6) PDF - Retire Without Risk Checklist</li>
+            <li>7) Voucher for a free Retire Without Risk Analysis</li>
+          </ul>
+        </div>
 
-        <div class="col-sm-6">
-          <div class="form-text">
-            <ul>
-              <li>1)  Learn how to literally retire without risk</li>
-              <li class='nested'>(Guaranteed Income for Life White Paper)</li>
-              <li>2)  Learn how to avoid losing money in the stock market</li>
-              <li class='nested'>(Investment Risk White Paper)</li>
-              <li>3)  How to Identify and Avoid Bad Advisors</li>
-              <li class='nested'>(a free 25-page summary)</li>
-            </ul>
+        <div class="red" style="margin-top:150px;">*This download has been over ten  years in the making. For the first time ever, I write on the elusive topic of identifying the *best* way to grow wealth in the stock market.</div>
+
+        <form id="sign-up-form" class="form-horizontal">
+          <div class="form-group first-name-group">
+            <div class="col-sm-10 col-sm-offset-1">
+              <input type="text" class="form-control" id="firstName" placeholder="First Name">
+            </div>
           </div>
-        </div>
+          <div class="form-group last-name-group">
+            <div class="col-sm-10 col-sm-offset-1">
+              <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group phone-group">
+            <div class="col-sm-10 col-sm-offset-1">
+              <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number">
+            </div>
+          </div>
+          <div class="form-group email-group">
+            <div class="col-sm-10 col-sm-offset-1">
+              <input type="email" class="form-control" id="emailAddress" placeholder="Email Address">
+            </div>
+          </div>
+          <div class="form-group">
+            <button id="sign-up-btn" type="submit" class="btn btn-danger col-sm-8 col-sm-offset-2">Sign Up Now!</button>
+          </div>
+        </form>
 
-        <div class="col-sm-6">
-          <form id="sign-up-form" class="form-horizontal">
-            <div class="form-group first-name-group">
-              <label for="firstName" class="col-sm-4 control-label">First Name:</label>
-              <div class="col-sm-8">
-                <input type="text" class="form-control" id="firstName" placeholder="First Name">
-              </div>
-            </div>
-            <div class="form-group last-name-group">
-              <label for="lastName" class="col-sm-4 control-label">Last Name:</label>
-              <div class="col-sm-8">
-                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-              </div>
-            </div>
-            <div class="form-group phone-group">
-              <label for="phoneNumber" class="col-sm-4 control-label">Phone Number:</label>
-              <div class="col-sm-8">
-                <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number">
-              </div>
-            </div>
-            <div class="form-group email-group">
-              <label for="emailAddress" class="col-sm-4 control-label">Email Address:</label>
-              <div class="col-sm-8">
-                <input type="email" class="form-control" id="emailAddress" placeholder="Email Address">
-              </div>
-            </div>
-            <div class="form-group">
-              <button id="sign-up-btn" type="submit" class="btn btn-danger col-sm-4 col-sm-offset-6">Sign Up Now!</button>
-            </div>
-          </form>
-        </div>
-
-        
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-12 graphic" style="padding:0;margin-left:-12px;">
-        <img src="images/footer.jpg" width="980"
+        <img src="images/footer.jpg" width="980" />
       </div>  
     </div>
 
@@ -100,8 +109,6 @@
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
       </div>
     </div>
-
-    <div class="row">
 
   </div><!-- /.container -->
 

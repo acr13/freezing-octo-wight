@@ -27,3 +27,8 @@
 	font-family: 'prox-cond-reg';
 	src: url('../fonts/ProximaNovaCond-Regular.otf') format('opentype');
 }
+
+@font-face {
+	font-family: 'prox-thin';
+	src: url('../fonts/ProximaNova-Thin.otf') format('opentype');
+}

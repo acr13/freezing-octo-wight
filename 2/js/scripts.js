@@ -48,7 +48,26 @@ $(function()
 			return;
 		}
 
+		var params = {
+			firstName: $("#firstName").val(),
+			lastName: $("#lastName").val(),
+			phoneNumber: $("#phoneNumber").val(),
+			emailAddress: $("#emailAddress").val()
+		};
+
 		// send a post to our server....
+		$.post("process/register.php", params, function(resp)
+		{
+			if (resp.status)
+			{
+				window.location.href = "thanks.html";
+			}
+			else
+			{
+				console.log(resp.reason);
+				alert("An error has occured during your registration. Please try again later.");
+			}
+		}, "json");
 
 	});
 });
