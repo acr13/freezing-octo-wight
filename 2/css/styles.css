@@ -4,8 +4,12 @@
  * Globals
  */
 
+
+
 body {
-  font-family: 'prox-thin';
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
   color: #333333;
 }
 
@@ -16,7 +20,9 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 20px;
-  font-family: 'prox-thin';
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
   color: #333;
 }
 
@@ -76,6 +82,7 @@ h6, .h6 {
 
 .form-text ul.show-list-style {
 	list-style: inherit;
+  list-style-image: url(../images/greendot.jpg);
 }
 
 .form-text ul li {
