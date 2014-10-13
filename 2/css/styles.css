@@ -35,7 +35,7 @@ h6, .h6 {
 
 @media (min-width: 1200px) {
   .container {
-    width: 970px;
+    width: 900px;
   }
 }
 
@@ -55,8 +55,8 @@ h6, .h6 {
 
 .side-border {
 	text-align: center;
-	border-left: 2px solid #e5e5e5;
-	border-right: 2px solid #e5e5e5;
+	border-left: 5px solid #ceced0;
+	border-right: 5px solid #ceced0;
 }
 
 .image-wrapper {
